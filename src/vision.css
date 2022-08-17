@@ -1,0 +1,44 @@
+.Vision{
+    background-color: black;
+    height: 50%;
+    display: flex;
+    padding: 100px 120px;
+    align-items: center;
+  }
+
+.Vision p{
+    color: white;
+    
+}
+
+.vision-right {
+    
+}
+
+.vision-right img {
+    width: 600px;
+}
+
+.vision-left{
+   
+}
+
+.visionName{
+    font-size: 14px;
+    letter-spacing: 0.16em;
+    padding-bottom: 40px;
+}
+
+.visionHeader{
+    font-size: 24px;
+    padding-bottom: 60px;
+    line-height: 1.8em;
+    letter-spacing: 0.08em;
+    width: 56%;
+}
+
+.visionContent{
+    width: 68%;
+    line-height: 1.8em;
+    letter-spacing: 0.08em;
+}

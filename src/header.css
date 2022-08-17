@@ -1,0 +1,102 @@
+.App-header {
+    background-image:url(./img/banner.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 840px;
+  }
+  
+  .navBar{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease-in;
+  }
+  
+  .navBar-bg{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    transition: .3s ease-in;
+    z-index: 1;
+  }
+  
+  .navLeft{
+    flex-grow: 5;
+    padding: 30px 80px;
+    font-size: 20px;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  
+  .navRight{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    padding-right: 80px;
+    align-items: center;
+  }
+  
+  
+  .navRightTech:hover{
+    color: orange;
+    transition: ease 0.3s;
+  }
+  
+  .navRightAbt:hover{
+    color: orange;
+    transition: ease 0.3s;
+  }
+  
+  .navRightCarr:hover{
+    color: orange;
+    transition: ease 0.3s;
+  }
+  
+  .navRightSub{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 20px;
+  }
+  
+  .navRightSub:hover{
+    color: black;
+    background-color: white;
+    transition: ease 0.5s;
+    border: solid 1px;
+  
+  }
+  
+  .headerBanner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+    margin: 5% auto;
+  }
+  
+  .headerBannerContent{
+    font-size: 64px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    line-height: 1.5em;
+  }
+  
+  .headerBannerSubContent{
+    font-size: 24px;
+    letter-spacing: 0.05em;
+  }
+  
+  
+
