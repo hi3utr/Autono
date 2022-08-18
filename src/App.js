@@ -1,8 +1,12 @@
-import './App.css';
+import './css/App.scss';
+import { Routes, Route, Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import Header from './header';
 import Vision from './vision';
 import Services from './services';
+import Why from './why';
+import Facts from './facts';
+import Industry from './industry';
 function App() {
  
   return (
@@ -10,9 +14,9 @@ function App() {
         <Header/>
         <Vision/>
         <Services/>
-        <div className="why"></div>
-        <div className="facts"></div>
-        <div className="industry"></div>
+        <Why/>
+        <Facts/>
+       <Industry/>
         <div className="careers"></div>
       
       <footer>

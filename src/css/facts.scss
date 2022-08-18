@@ -1,0 +1,52 @@
+.facts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.factsImg img{
+    display: flex;
+    width: 80%;
+    flex: 1 1 0px;
+}
+
+.factsNumbers{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1 1 0px;
+}
+
+.factsNumbersContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 80px;
+    width: 28vw;
+}
+
+.factsNumbersHeader{
+    font-size: 24px;
+    padding-bottom: 60px;
+    line-height: 1.8em;
+    letter-spacing: 0.08em;
+}
+
+.factsNumbersStats{
+    font-size: 40px;
+    letter-spacing: 00.08em;
+}
+
+.factsNumbersName{
+    font-size: 14px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+}
+
+.factsNumbersLine{
+    border-style: solid;
+    border-width: 1px;
+    margin: 15px 0;
+    
+}

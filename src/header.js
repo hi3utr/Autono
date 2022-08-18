@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-
 function Header(){
     const [navColor, setNavColor] = useState(false)
     const changeColor = () => {

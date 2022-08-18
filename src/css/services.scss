@@ -1,0 +1,164 @@
+.services{
+    display: flex;
+    padding: 80px 120px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services-left{
+    display: flex;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+.servicesName{
+    font-size: 14px;
+    letter-spacing: 0.16em;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.servicesHeader{
+    font-size: 24px;
+    padding-bottom: 60px;
+    line-height: 1.8em;
+    letter-spacing: 0.08em;
+    width: 45%;
+}
+
+.servicesDriving{
+    display: flex;
+}
+
+.servicesDrivingLeft{
+
+}
+
+.servicesDrivingHeader{
+    font-size: 40px;
+    padding-bottom: 60px;
+    line-height: 1.8em;
+    letter-spacing: 0.08em;
+    width: 56%;
+}
+
+.servicesDrivingContent{
+    width: 65%;
+    line-height: 1.8em;
+    letter-spacing: 0.08em;
+    padding-bottom: 30px;
+}
+
+.servicesDrivingRead{
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    width: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    &:hover{
+        background-color: black;
+        color: white;
+        transition: ease 0.5s;
+    }
+}
+
+
+.servicesDrivingRight{
+    
+}
+
+.servicesDrivingRight img{
+    width: 700px;
+}
+
+.servicesInfo{
+    display: flex;
+}
+
+.servicesInfoLeft{
+    
+}
+
+.servicesInfoLeft img{
+    width: 700px;
+}
+
+.servicesInfoRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.servicesInfoHeader{
+    font-size: 40px;
+    padding-bottom: 60px;
+    line-height: 1.8em;
+    letter-spacing: 0.08em;
+    /* width: 56%; */
+}
+
+.servicesInfoContent{
+    /* width: 65%; */
+    line-height: 1.8em;
+    letter-spacing: 0.08em;
+    padding-bottom: 30px;
+}
+
+.servicesInfoRead{
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    width: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    &:hover{
+        background-color: black;
+        color: white;
+        transition: ease 0.5s;
+    }
+}
+
+.servicesPerception{
+    display: flex;
+}
+
+.servicesPerceptionLeft{
+
+}
+
+.servicesPerceptionHeader{
+    font-size: 40px;
+    padding-bottom: 60px;
+    line-height: 1.8em;
+    letter-spacing: 0.08em;
+    width: 56%;
+}
+
+.servicesPerceptionContent{
+    width: 65%;
+    line-height: 1.8em;
+    letter-spacing: 0.08em;
+    padding-bottom: 30px;
+}
+
+.servicesPerceptionRead{
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    width: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    &:hover{
+        background-color: black;
+        color: white;
+        transition: ease 0.5s;
+    }
+}
+
+.servicesInfoLeft{
+
+}
+
