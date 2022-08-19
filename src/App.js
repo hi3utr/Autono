@@ -7,6 +7,8 @@ import Services from './services';
 import Why from './why';
 import Facts from './facts';
 import Industry from './industry';
+import Careers from './careers';
+import Footer from './footer';
 function App() {
  
   return (
@@ -16,13 +18,9 @@ function App() {
         <Services/>
         <Why/>
         <Facts/>
-       <Industry/>
-        <div className="careers"></div>
-      
-      <footer>
-        <div className="about"></div>
-        <div className="subcribe"></div>
-      </footer>
+        <Industry/>
+        <Careers/>
+        <Footer/>
     </div>
   );
 }
