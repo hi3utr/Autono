@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Autono/static/css/main.e62a74cb.css",
+    "main.js": "/Autono/static/js/main.6cd62611.js",
+    "static/js/787.ad8c2cff.chunk.js": "/Autono/static/js/787.ad8c2cff.chunk.js",
+    "static/media/whybackground.webp": "/Autono/static/media/whybackground.aa4e96e1ac4d4d7b09eb.webp",
+    "static/media/car_vision.png": "/Autono/static/media/car_vision.8b9e52a9e8ce6e85aa4a.png",
+    "static/media/banner.webp": "/Autono/static/media/banner.cb0d0d4183c919e12ff7.webp",
+    "static/media/tech-head.webp": "/Autono/static/media/tech-head.a41fbc13c4281739ac73.webp",
+    "static/media/tech-content.webp": "/Autono/static/media/tech-content.406a1af01155cf1ae304.webp",
+    "static/media/perception.webp": "/Autono/static/media/perception.df33369a7c32bbfccb88.webp",
+    "static/media/services.webp": "/Autono/static/media/services.f406325c938f0601e8c3.webp",
+    "static/media/products.webp": "/Autono/static/media/products.74f30c2cf1810dfe18d8.webp",
+    "static/media/cluster.webp": "/Autono/static/media/cluster.ce608dbc27070005710c.webp",
+    "static/media/facts.webp": "/Autono/static/media/facts.6d7c20f0fe06619a9cf2.webp",
+    "static/media/Tri-Nex .webp": "/Autono/static/media/Tri-Nex .76103966fd604e93a8b8.webp",
+    "static/media/Imogen_Cars.webp": "/Autono/static/media/Imogen_Cars.fbec97ceaecb11493f7d.webp",
+    "static/media/General_Transport.webp": "/Autono/static/media/General_Transport.4a937572b91b9395c7cd.webp",
+    "static/media/IDI_Software.webp": "/Autono/static/media/IDI_Software.d0c03eb38d94407780b6.webp",
+    "index.html": "/Autono/index.html",
+    "main.e62a74cb.css.map": "/Autono/static/css/main.e62a74cb.css.map",
+    "main.6cd62611.js.map": "/Autono/static/js/main.6cd62611.js.map",
+    "787.ad8c2cff.chunk.js.map": "/Autono/static/js/787.ad8c2cff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e62a74cb.css",
+    "static/js/main.6cd62611.js"
+  ]
+}
