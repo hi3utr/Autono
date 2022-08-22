@@ -48,3 +48,12 @@
         transition: ease 0.5s;
     }
 }
+
+@media (max-width: 700px) {
+    .why{
+        width: fit-content;
+    }
+    .whyContainer{
+        width: 30%;
+    }
+  }
