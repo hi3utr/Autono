@@ -1,4 +1,4 @@
-@import url(./header.css);
+@import url(./header.scss);
 @import url(./vision.css);
 @import url(./services.scss);
 @import url(./why.scss);
@@ -6,6 +6,9 @@
 @import url(./industry.scss);
 @import url(./careers.scss);
 @import url(./footer.scss);
+@import url(./techheader.scss);
+@import url(techcar.scss);
+@import url(products.scss);
 *{
     margin: 0;
     padding: 0;

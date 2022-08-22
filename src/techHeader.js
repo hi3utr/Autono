@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import Technology from "./technology";
 import App from "./App";
-function Header() {
+function Techheader() {
   const [navColor, setNavColor] = useState(false);
   const changeColor = () => {
     if (window.scrollY >= 20) {
@@ -13,7 +13,7 @@ function Header() {
   };
   window.addEventListener("scroll", changeColor);
   return (
-    <div id="App-header">
+    <div id="Tech-header">
       <div className={navColor ? "navBar-bg" : "navBar"}>
         <Link to="/" className="navLeft">
           Autono
@@ -29,15 +29,14 @@ function Header() {
           </a>
         </div>
       </div>
-
-      <div className="headerBanner">
-        <p className="headerBannerContent">THE FUTURE OF MOBILITY IS HERE</p>
-        <p className="headerBannerSubContent">
-          Discover the safest self-driving experience with Autono.
-        </p>
-      </div>
+      <h1 className="techHeading">PERCEPTION ENABLED TECHNOLOGY</h1>
+      <p className="techContent">
+        Click here to edit this paragraph and add your own content. This is a
+        great place to expand on the title and any relevant details or
+        information.
+      </p>
     </div>
   );
 }
 
-export default Header;
+export default Techheader;

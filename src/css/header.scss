@@ -1,8 +1,9 @@
-.App-header {
+#App-header {
     background-image:url('../img/banner.webp');
     background-size: contain;
     background-repeat: no-repeat;
     height: 840px;
+    scroll-margin-top: 100px ;
   }
   
   .navBar{
@@ -36,6 +37,8 @@
     letter-spacing: 0.35em;
     text-transform: uppercase;
     font-weight: 900;
+    text-decoration: none;
+    color: black;
   }
   
   .navRight{
@@ -46,11 +49,15 @@
     align-items: center;
   }
   
-  
-  .navRightTech:hover{
-    color: orange;
-    transition: ease 0.3s;
+  .navRightTech{
+    text-decoration: none;
+    color: black;
+    &:hover{
+      color: orange;
+      transition: ease 0.3s;
+    }
   }
+  
   
   .navRightAbt:hover{
     color: orange;
@@ -67,15 +74,16 @@
     border-radius: 10px;
     color: white;
     padding: 5px 20px;
+    text-decoration: none;
+    &:hover{
+      color: black;
+      background-color: white;
+      transition: ease 0.5s;
+      border: solid 1px;
+    
+    }
   }
   
-  .navRightSub:hover{
-    color: black;
-    background-color: white;
-    transition: ease 0.5s;
-    border: solid 1px;
-  
-  }
   
   .headerBanner{
     display: flex;

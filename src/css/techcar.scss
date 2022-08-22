@@ -1,0 +1,75 @@
+.TechCar{
+    color: white;
+    background-color: black;
+    padding: 0px 120px;
+    align-items: center;
+}
+
+.TechCarAbove{
+    display: flex;  
+}
+
+.TechCar-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    
+}
+
+.TechCarName{
+    font-size: 14px;
+    letter-spacing: 00.16em;
+    padding-bottom: 40px;
+}
+
+.TechCarHeader{
+    font-size: 24px;
+    letter-spacing: 0.08em;
+    width: 60%;
+}
+
+.TechCar-right{
+    display: flex;
+    flex: 1;
+}
+
+.TechCar-right img{
+    width: 100%;
+    // margin-left: auto;
+}
+
+.TechCarContent{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    gap: 30vw;
+    padding-bottom: 100px;
+}
+
+.TechCarContent-left{
+display: flex;
+flex-direction: column;
+}
+
+.TechCarContent-title{
+    display: flex;
+    font-size: 18px;
+}
+
+.TechCarContent-description{
+    display: flex;
+    width: 22vw;
+    padding-top: 40px;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    line-height: 1.8em;
+   
+}
+
+.TechCarContent-right{
+    display: flex;
+    flex-direction: column;
+}
+
+
